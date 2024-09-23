@@ -92,6 +92,7 @@ h4{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    margin-bottom: 5%;
 }
 img{
     max-width: 100px;
@@ -115,4 +116,15 @@ img{
 .heading2{
     color: #49aaeb;
     margin-left: 15%;
+}
+.item{
+    margin-top: 3%;
+}
+.square{
+    background-color: #BBE1FA;
+    width: 85px;
+    height: 85px;
+    margin-bottom: -99%;
+    margin-left: -7%;
+    border-radius: 10px;
 }
