@@ -1,0 +1,118 @@
+@keyframes slideLeft{
+    from {
+        transform: translateX(-500px);
+    }
+    to {
+        transform: translateX(0);
+    }
+}
+@keyframes slideUp{
+    from{
+        transform: translateY(0);
+    }
+    to{
+        transform: translateY(-3px)
+    }
+}
+header{
+    margin-top: -2%;
+    margin-left: -1%;
+    margin-right: -1%;
+    padding-left: 1%;
+    padding-top: 1%;
+    background-color: #0F4C75;
+    font-size: 1rem;
+}
+.header{
+    color: #BBE1FA;
+    font-family: Karma;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;  
+}
+body{
+    background-color: #1B262C;
+}
+.name{
+    padding-top: 5%;
+    color: #BBE1FA;
+    font-family: "Karma";
+    font-size: 4rem;
+    font-weight: 300;
+    margin-top: 0%; 
+}
+h2{
+    margin-top: -3%;
+    color: #3282B8;
+}
+.heading1{
+    margin-left: 15%;
+}
+.side-heading{
+    color: #56c8e4;
+    font-family: "Karma";
+    font-size: 3rem;
+    font-weight: 300;
+    margin-top: 10%;
+    margin-left: 15%;
+}
+p{
+    color: #49aaeb;
+    font-size: 2rem;
+    font-weight: 300;
+    margin-top: -2%;
+    margin-left: 15%;
+    max-width: 750px;
+}
+.flex-item:hover{
+    color: #46B5D1;
+    animation: slideUp;
+    animation-duration: 0.5s;
+}
+.flex-box{
+    color: #BBE1FA;
+    margin-top: -2%;
+    margin-left: 15%;
+    font-family: Karma;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+.flex-skills{
+    color: #3282B8;
+    font-family: Karma;
+}
+h4{
+    margin-top: -4%;
+}
+.contacts-box{
+    margin-top: -2%;
+    margin-right: 4%;
+    margin-left: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+img{
+    max-width: 100px;
+    max-height: 100px;
+}
+*{
+    scroll-behavior: smooth;
+}
+.flex-item{
+    text-decoration: none;
+    color: #BBE1FA;
+}
+.exp{
+   margin-left: 20%;
+}
+.companies{
+    width: 50px;
+    height: 50px;
+    margin-left: 15%;
+}
+.heading2{
+    color: #49aaeb;
+    margin-left: 15%;
+}
