@@ -20,22 +20,22 @@ header{
     margin-right: -1%;
     padding-left: 1%;
     padding-top: 1%;
-    background-color: #0F4C75;
+    background-color: #6C4E31;
     font-size: 1rem;
 }
 .header{
-    color: #BBE1FA;
+    color: #603F26;
     font-family: Karma;
     display: flex;
     flex-direction: row;
     justify-content: space-around;  
 }
 body{
-    background-color: #1B262C;
+    background-color: #FFEAC5;
 }
 .name{
     padding-top: 5%;
-    color: #BBE1FA;
+    color: #603F26;
     font-family: "Karma";
     font-size: 4rem;
     font-weight: 300;
@@ -43,13 +43,14 @@ body{
 }
 h2{
     margin-top: -3%;
-    color: #3282B8;
+    color:#6C4E31;
 }
+
 .heading1{
     margin-left: 15%;
 }
 .side-heading{
-    color: #56c8e4;
+    color: #603F26;
     font-family: "Karma";
     font-size: 3rem;
     font-weight: 300;
@@ -57,7 +58,7 @@ h2{
     margin-left: 15%;
 }
 p{
-    color: #49aaeb;
+    color: #AB886D;
     font-size: 2rem;
     font-weight: 300;
     margin-top: -2%;
@@ -65,12 +66,12 @@ p{
     max-width: 750px;
 }
 .flex-item:hover{
-    color: #46B5D1;
+    color: #FFDBB5;
     animation: slideUp;
     animation-duration: 0.5s;
 }
 .flex-box{
-    color: #BBE1FA;
+    color: #603F26;
     margin-top: -2%;
     margin-left: 15%;
     font-family: Karma;
@@ -103,7 +104,7 @@ img{
 }
 .flex-item{
     text-decoration: none;
-    color: #BBE1FA;
+    color: #FFEAC5;
 }
 .exp{
    margin-left: 20%;
@@ -114,17 +115,22 @@ img{
     margin-left: 15%;
 }
 .heading2{
-    color: #49aaeb;
+    color: #800000;
     margin-left: 15%;
 }
 .item{
     margin-top: 3%;
 }
 .square{
-    background-color: #BBE1FA;
+    background-color: #FFDBB5;
     width: 85px;
     height: 85px;
     margin-bottom: -99%;
     margin-left: -7%;
     border-radius: 10px;
+}
+.mr{
+    color: #603F26;
+    font-size: 25px;
+    margin-left: 18%;
 }
